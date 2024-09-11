@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkTree_dhani</title>
+    <link rel="icon" href="#">
+    <link rel="stylesheet" href="#">
+    <style>
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('wp.jpeg');
+    background-size: cover;
+    color: rgb(51, 47, 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffe659;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #f1eaea;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-family: 'RussoOne';
+    font-size: 24px;
+    margin: 5px 0;
+    font-weight: 400;
+}
+
+.bio {
+    font-family: 'KellySlab';
+    color: #1d0d0d;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 12px;
+    background-color: #131418;
+    color: #ecd718;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link i {
+    margin-right: 8px;
+}
+
+.link:hover {
+    background-color: #8215db;
+    transform: translateY(-3px);
+}
+footer {
+    font-family: 'KellySlab';
+    margin-top: 20px;
+    font-size: 12px;
+    color: #050202;
+    font-weight: 800;
+}
+@font-face{
+    font-family: 'RussoOne';
+    src: url('font/Russo_One/RussoOne-Regular.ttf');
+}
+@font-face{
+    font-family: 'KellySlab';
+    src: url('font/Kelly_Slab/KellySlab-Regular.ttf');
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="pro.jpg" alt="ka iren nih bos" class="profile-picture">
+            <h1 class="name">Dhani Alfarizqi </h1>
+            <p class="bio">Hai Teman-teman, perkenalkan nama saya Dhani alfarizqi Jurusan Administrasi dan saya sekarang belajar coding bersama Kang Yusuf 
+            </p>
+        </div>
+        <div class="links">
+            <a href="https://www.tiktok.com/upload?lang=id-ID" target="_blank" class="link"><i class="ph-fill ph-tiktok-logo"></i> TikTok</a>
+            <a href="https://www.instagram.com/accounts/onetap/?next=%2F" target="_blank" class="link"><i class="ph-fill ph-instagram-logo"></i></i> Instagram</a>
+            <a href="https://web.whatsapp.com/6285-7113-7601" target="_blank" class="link"><i class="ph-fill ph-whatsapp-logo"></i></i> Whattsap</a>
+        </div>
+        <footer>
+            <p>©️2024dhani_Profile,All Right Reserved.</p>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</body>
+</html>
